@@ -1,0 +1,12 @@
+{
+  "name": "angular-seed",
+  "description": "Example project",
+  "version": "0.0.0",
+  "homepage": "https://github.com/",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.6",
+    "angular-ui-router": "~0.2.13"
+  }
+}

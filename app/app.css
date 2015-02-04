@@ -1,0 +1,50 @@
+body {
+    background: darkgray;
+}
+
+.title {
+    text-align: center;
+}
+
+.row {
+    margin: 0px auto;
+    max-width: 900px;
+    background: white;
+}
+
+.chat {
+    height: 650px;
+}
+
+.message {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(128, 128, 128, 0.45);
+}
+
+.message.right {
+    float: right;
+}
+
+.message.left {
+    float: left;
+}
+
+.scroll {
+    height: 600px;
+    overflow: auto;
+}
+
+.reply textarea  {
+    display: inline;
+    height: 43px;
+    width: 825px;
+}
+
+button {
+    display: inline;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    vertical-align:top;
+}

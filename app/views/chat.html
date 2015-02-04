@@ -1,0 +1,19 @@
+<div class='title'><h2>Chat</h2></div>
+<div class="row chat">
+    <div class="scroll">
+        <div ng-repeat="message in messages track by $index">
+            <div class="message" ng-class="$index%2==0?'right':'left' ">
+                {{message}}
+            </div>
+        </div>
+    </div>
+    <div class="reply">
+        <form novalidate name="form">
+            <textarea name="reply" required send-message ng-model="reply"></textarea>
+            <button ng-click="send()">
+                Send
+            </button>
+        </form>
+
+    </div>
+</div>
